@@ -1,0 +1,43 @@
+{
+  "name": "react-from-scratch",
+  "version": "1.0.0",
+  "description": "React, from scratch",
+  "scripts": {
+    "start": "node bin/server.js",
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "NODE_ENV=test mocha src/**/*.spec.js",
+    "test:watch": "npm test -- --watch"
+  },
+  "author": "Kroger",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "axios": "0.9.1",
+    "babel-polyfill": "6.7.4",
+    "immutable": "3.7.6",
+    "react": "15.0.1",
+    "react-dom": "15.0.1",
+    "react-kuic": "0.0.11",
+    "react-redux": "4.4.5",
+    "redux": "3.4.0",
+    "redux-act": "0.4.0",
+    "redux-act-async": "0.4.0",
+    "redux-thunk": "2.0.1"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "chai-cheerio": "1.0.0",
+    "chai-immutable": "1.5.4",
+    "enzyme": "2.2.0",
+    "eslint": "2.7.0",
+    "eslint-config-kroger": "1.0.0",
+    "kroger-webpack-config": "2.0.1",
+    "mocha": "2.4.5",
+    "nock": "7.7.2",
+    "react-addons-test-utils": "15.0.1",
+    "sinon": "1.17.3",
+    "sinon-chai": "2.8.0",
+    "webpack-dev-server": "2.0.0-beta",
+    "webpack": "2.1.0-beta.5"
+  }
+}

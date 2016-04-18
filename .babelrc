@@ -1,0 +1,11 @@
+{
+  "presets": ["stage-0", "react" ],
+  "env": {
+    "development": {
+      "presets": ["es2015-webpack"]
+    },
+    "test": {
+      "presets": ["es2015"]
+    }
+  }
+}
